@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birds Catching</title>
+    <link rel="stylesheet" href="Index.css" />
+</head>
+<body>
+<div class="wrapper">
+  <div class="Entry">
+    <h1>Select Game Level</h1>
+    <select name="Game level">
+      <option value="">Choose an option</option>
+      <option value="Level">level1</option>
+    </select>
+
+    <h2 class="name">Enter Your Name</h2>
+
+    <form action="game.html" method="get">
+        <input type="text" id="name" name="name" placeholder="Please Enter your name.." required> <br>
+
+        <button onclick="handleSubmit()">Go</button><br>
+
+    </form>
+
+          <div id="bridsPoints">
+
+          <div style="display: flex; align-items: center;">
+            <img src="./Project_Images/white_Bird.gif" />
+            <h3>+5 Points</h3>
+          </div>
+          <div  style="display: flex; align-items: center;">
+            <img src="./Project_Images/small_bird.gif" />
+            <h3>+10 Points</h3>
+          </div>
+          <div  style="display: flex;  align-items: center;">
+            <img src="./Project_Images/big_bird.gif" />
+            <h3>-5 Points</h3>
+          </div>
+</div>
+   
+          
+            <script src="Index.js"></script>
+
+</body>
+</html>

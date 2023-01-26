@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;  
+
+  }
+  .wrapper {
+    background-image: url(Project_Images/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  button {
+    background: green;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 8px 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+  }
+  
+  .box {
+    width: 300px;
+    height: 50px;
+    border: 2px solid rgb(104, 99, 99);
+    border-radius: 20px;
+    background-color: rgb(240, 240, 240);
+    align-items: flex-start;
+  }
+  
+  .boxes {
+    display:flex;
+    justify-content: space-around;
+
+  }
+  
+  .flip {
+    transform: rotateY(180deg);
+  }
+  
+  img {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+  }
+  

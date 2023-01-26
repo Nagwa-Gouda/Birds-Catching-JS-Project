@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+  }
+  .wrapper {
+    background-image: url(Project_Images/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+  }
+  .Entry {
+    width: 420px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(104, 99, 99);
+    border-radius: 20px;
+    text-align: center;
+  }
+  #name {
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(219, 200, 200);
+    color: rgb(36, 26, 26);
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+  button {
+    width: 100px;
+    background-color: white;
+    color: green;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  button:hover {
+    transform: scale(1.2);
+  }
+  button a {
+    text-decoration: none;
+  }
+  .name {
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+
+   #bridsPoints{
+    width: 420px;
+    
+    height: 600px;
+    margin-top: 50px;
+    border: 2px solid rgb(104, 99, 99);
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+    padding: 10px;
+   
+  
+}
+#bridsPoints img{
+ 
+    width:50%;
+    bottom: 20px;
+
+ 
+}
+#bridsPoints h3
+{
+    color: blue;
+ 
+    font-size: 40px;
+    text-align:justify;
+}
